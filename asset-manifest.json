@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fadidab98/resynews.git/static/css/main.7a3e9617.chunk.css",
+    "main.js": "/fadidab98/resynews.git/static/js/main.45efcfd6.chunk.js",
+    "main.js.map": "/fadidab98/resynews.git/static/js/main.45efcfd6.chunk.js.map",
+    "runtime-main.js": "/fadidab98/resynews.git/static/js/runtime-main.366f620d.js",
+    "runtime-main.js.map": "/fadidab98/resynews.git/static/js/runtime-main.366f620d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/fadidab98/resynews.git/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.89624dca.chunk.js": "/fadidab98/resynews.git/static/js/2.89624dca.chunk.js",
+    "static/js/2.89624dca.chunk.js.map": "/fadidab98/resynews.git/static/js/2.89624dca.chunk.js.map",
+    "static/js/3.98dc87d5.chunk.js": "/fadidab98/resynews.git/static/js/3.98dc87d5.chunk.js",
+    "static/js/3.98dc87d5.chunk.js.map": "/fadidab98/resynews.git/static/js/3.98dc87d5.chunk.js.map",
+    "index.html": "/fadidab98/resynews.git/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/fadidab98/resynews.git/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.7a3e9617.chunk.css.map": "/fadidab98/resynews.git/static/css/main.7a3e9617.chunk.css.map",
+    "static/js/2.89624dca.chunk.js.LICENSE.txt": "/fadidab98/resynews.git/static/js/2.89624dca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.366f620d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.89624dca.chunk.js",
+    "static/css/main.7a3e9617.chunk.css",
+    "static/js/main.45efcfd6.chunk.js"
+  ]
+}
