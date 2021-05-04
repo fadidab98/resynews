@@ -4,11 +4,18 @@ import '../../App.css';
 import data from '../../api/news'
 function Break() {
     return (
-        <div className="fixed-bottom w-100 breaking-news w-100">
-             <marquee behavior="scroll" scrrollamount="22" width="100%"  ><h4 className="mt-2">أنتوني هوبكنز يفوز بجائزة أوسكار أفضل ممثل عن فيلم الأب</h4></marquee>
-             <div className="break"><h3>عاجل &nbsp;</h3></div>
-        </div>
-        
+      <div class="tcontainer">
+        <div className="break-News-tricker">عاجل</div>
+        <div class="ticker-wrap">
+          <div class="ticker-move" scrollamount="11s">
+  <div class="ticker-item">ي تصريحها لموقع "سكاي نيوز عربية"، أكدت المستشارة البرلمانية <span >||</span></div>
+  <div class="ticker-item">واعتبرت المستشارة البرلمانية عن مجموعة "الكونفدرالية الديمقراطية للشغل" <span >||</span></div>
+  <div class="ticker-item">وخلصت إلى أن "الأطراف المستفيدة من هذه الوضعية، تمارس ضغوطها بكل الأشكال وتنتصر لخيار التوزيع على حساب خيار التكرير، ولا تريد الاعتراف بخطئها في تحرير أسعار المحروقات<span >||</span></div>
+  <div class="ticker-item">وقالت الوزارة إن لجنة التسعير التلقائي للمنتجات البترولية استعرضت متوسطات أسعار خام برنت في السوق العالمية وسعر صرف الدولار مقابل الجنيه للفترة من يناير إلى مارس 2021<span >||</span></div>
+
+</div>
+</div>
+</div>
             
         
     )

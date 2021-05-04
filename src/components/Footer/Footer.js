@@ -89,9 +89,9 @@ function Footer() {
     <section className="">
       <div className="row">
         <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">سيريا نيوز عربية</h5>
+          <h5 className="text-uppercase text-center">سيريا نيوز عربية</h5>
 
-          <ul className="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0 p-0">
             <li>
               <a href="#!" className="text-white">اتصل بنا</a>
             </li>
@@ -110,7 +110,7 @@ function Footer() {
         <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 className="text-uppercase">تابعونا</h5>
 
-          <ul className="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0 p-0">
             <li>
               <a href="#!" className="text-white">تطبيقاتنا</a>
             </li>
@@ -129,7 +129,7 @@ function Footer() {
         <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 className="text-uppercase">الأقسام</h5>
 
-          <ul className="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0 p-0">
             <li>
               <a href="#!" className="text-white">مستجدات كورونا</a>
             </li>
@@ -147,10 +147,10 @@ function Footer() {
 
 
 
-        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">برامجنا</h5>
+        <div className="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
+          <h5 className="text-uppercase  ">برامجنا</h5>
 
-          <ul className="list-unstyled mb-0">
+          <ul className="list-unstyled mb-0 p-0">
             <li>
               <a href="#!" className="text-white">غرفة الأخبار</a>
             </li>

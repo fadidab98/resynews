@@ -43,6 +43,7 @@ function App() {
         
       </ReactBootStrap.NavDropdown>
       <ReactBootStrap.Nav.Link ><Link className="Link-navbar">اقتصاد</Link> </ReactBootStrap.Nav.Link>
+      
       </ReactBootStrap.Nav>
     
       <section className="mt-2 ml-2 ">
@@ -71,8 +72,14 @@ function App() {
        ><i className="fab fa-linkedin-in"></i
      ></a>
 
-   
-  
+ 
+     <div class="input-group rounded">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+    aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+  </span>
+</div>
    </section>
     </ReactBootStrap.Navbar.Collapse>
   

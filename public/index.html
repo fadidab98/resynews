@@ -31,7 +31,7 @@
 />
     <title>React App</title>
   </head>
-  <body dir="rtl" >
+  <body class="bg-light" dir="rtl" >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   
@@ -48,7 +48,21 @@
     <!--owl-carousel file js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js " integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin=" anonymous "></script>
     <!--isotope plugin-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js " integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="./jquery.newsTicker.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.video-list video').click(function(){
+          $(this).addClass('active').siblings().removeClass('active');
+          let src = $(this).attr('src')
+          $('.main-video video').attr('src',src);
+        })
+      
+      
+      
+      });
     
+      
+      </script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-import News from "./news.js";
+import News from "./news";
 
 export function getAll(){
     return Promise.resolve(News);
